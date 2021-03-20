@@ -1,4 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    title: `BenHammond.tech`,
+    description: `Denver Developer && Song Builder`,
+    author: `gatsbyjs`,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
