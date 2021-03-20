@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: `Enthusiastic software developer with 15+ yrs running a tech-forward music business. Committed to improving quality of life for myself and others through lifelong learning, meaningful collaboration, and better code.`,
   paragraphTwo: `Driven to exceed expectations, bringing an entertainer's eye to engagement and an improviser's ear to the development of collective ideas.`,
   paragraphThree:
-    'Javascript (React, Node) proficient, but excited to learn any tech stack, particulalry for roles that incorporate my passion for music.',
+    'Recently working mainly in fullstack Javascript (React, Node), and always excited to learn new tools and tech stacks, particularly for a role that might leverage my music expertise.',
 
   resume:
     'https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing',
