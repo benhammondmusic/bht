@@ -1037,6 +1037,9 @@
 .fa-fire-extinguisher:before {
   content: '\f134';
 }
+.fa-guitar:before {
+  content: '\f7a6';
+}
 .fa-rocket:before {
   content: '\f135';
 }
