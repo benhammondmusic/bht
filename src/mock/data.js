@@ -9,20 +9,18 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi, I'm",
+  title: "Hello, I'm",
   name: 'Ben Hammond',
-  subtitle: `Denver Developer && Song Builder`,
+  subtitle: `I'm a Denver Developer && Song Builder`,
   cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'ben-headphones-square.jpg',
-  paragraphOne: `Enthusiastic software developer with 15+ yrs running a tech-forward music business. Committed to improving quality of life for myself and others through lifelong learning, meaningful collaboration, and better code.`,
-  paragraphTwo: `Driven to exceed expectations, bringing an entertainer's eye to engagement and an improviser's ear to the development of collective ideas.`,
-  paragraphThree:
-    'Recently working mainly in fullstack Javascript (React, Node), and always excited to learn new tools and tech stacks, particularly for a role that might leverage my music expertise.',
-
+  paragraphOne: `I'm an enthusiastic software developer and self-starter with 15+ years running a tech-forward music business. I'm committed to improving quality of life for myself and others through lifelong learning, meaningful collaboration, and better code.`,
+  paragraphTwo: `Driven to exceed expectations, I enjoy bringing an entertainer's eye to engagement and an improviser's ear to the development of collective ideas.`,
+  paragraphThree: `Most recently I've been working in fullstack Javascript (React, Node), though I am always excited to learn new tools, particularly in a role that might leverage my music expertise.`,
   resume:
     'https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing',
 };
@@ -34,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'tanks.png',
     title: 'Tanks!',
-    info: 'In-Browser Artillery Game',
+    info: 'An In-Browser Artillery Game',
     info2:
       'Multiplayer, animated artillery game in JavaScript, JQuery, and HTML Canvas; built in one week. Incorporated programmatically generated terrain and destruction when collision detected, gravity for tank placement, scalable multiplayer mode, and responsive, accessible design.',
     url: 'https://benhammondmusic.github.io/tanks',
@@ -44,7 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'family-friendly-header.png',
     title: 'Family Friendly',
-    info: 'Plots crowd-sourced baby changing table locations for caregivers of all genders',
+    info: 'Plot crowd-sourced baby changing table locations for caregivers of all genders',
     info2: `Delegates and restricts users' CRUD permissions with OAuth2; uses JavaScript Map API to plot user location and data points; integrates a deployed MongoDB Atlas NoSQL database; internally operates on a RESTful API backend in Node and Express with EJS templating`,
     url: 'https://benhammond-familyfriendly.herokuapp.com/',
     repo: 'https://github.com/benhammondmusic/familyfriendly',
