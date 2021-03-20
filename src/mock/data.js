@@ -11,16 +11,18 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm",
   name: 'Ben Hammond',
-  subtitle: `I'm A Denver Developer and Song Builder`,
+  subtitle: `Denver Developer && Song Builder`,
   cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'ben-headphones-square.jpg',
-  paragraphOne: '1',
-  paragraphTwo: '2',
-  paragraphThree: '3',
+  paragraphOne: `Enthusiastic software developer with 15+ yrs running a tech-forward music business. Committed to improving quality of life for myself and others through lifelong learning, meaningful collaboration, and better code.`,
+  paragraphTwo: `Driven to exceed expectations, bringing an entertainer's eye to engagement and an improviser's ear to the development of collective ideas.`,
+  paragraphThree:
+    'Javascript (React, Node) Proficient, but excited to learn any tech stack, particulalry for roles that incorporate my passion for music.',
+
   resume:
     'https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing',
 };
@@ -50,9 +52,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'GigUploader-code.png',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'GigUploader',
+    info: 'Python script assisting musicians in online gig promotion',
+    info2: `Automate gig promotion by programmatically submitting to multiple online event services. User inputs details into a local .xls spreadsheet, and the data is uploaded publicly to Songkick, BandsInTown, Strumsy, and privately to Dubsado. Further integration propagates this information to Spotify, Google, a user's Google Calendar, and many more locations.`,
     url: 'https://blog.benhammond.tech/giguploader',
     repo: 'https://github.com/benhammondmusic/giguploader',
   },
