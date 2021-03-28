@@ -50,9 +50,9 @@ const About = () => {
                   lifelong learning, meaningful collaboration, and better code.
                 </p>
                 <p className="about-wrapper__info-text">
-                  Most recently I&apos;ve been working in fullstack Javascript (React, Node), and I
-                  am excited to learn new tools, particularly in a role that might leverage my music
-                  expertise.
+                  Most recently I&apos;ve been working in fullstack Javascript (React, Node), while
+                  also excitedly learning new tools in order to create code which leverages my
+                  musical expertise.
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
