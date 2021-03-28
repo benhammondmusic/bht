@@ -11,16 +11,17 @@ export const headData = {
 export const heroData = {
   title: "Hello, I'm",
   name: 'Ben Hammond',
-  subtitle: `I'm a Denver Developer && Song Builder`,
+  subtitle: `(Denver Developer && Song Builder)`,
   cta: 'Learn More',
 };
 
 // ABOUT DATA
+// this data is hard-coded in <About> jsx
 export const aboutData = {
   img: 'ben-headphones-square.jpg',
-  paragraphOne: `I'm an enthusiastic software developer and self-starter with 15+ years running a tech-forward music business. I'm committed to improving quality of life for myself and others through lifelong learning, meaningful collaboration, and better code.`,
-  paragraphTwo: `Driven to exceed expectations, I enjoy bringing an entertainer's eye to engagement and an improviser's ear to the development of collective ideas.`,
-  paragraphThree: `Most recently I've been working in fullstack Javascript (React, Node), though I am always excited to learn new tools, particularly in a role that might leverage my music expertise.`,
+  paragraphOne: `Denver Developer | JavaScript | React | Node | Python`,
+  paragraphTwo: ``,
+  paragraphThree: ``,
   resume:
     'https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing',
 };
@@ -60,9 +61,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would You Like To Work Together?',
+  cta: 'Would You Like To Build Something Together?',
   btn: 'Email Me',
-  email: 'benjamin.hammond@gmail.com',
+  email: 'hello@benhammond.tech',
 };
 
 // FOOTER DATA
