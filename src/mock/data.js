@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hello, I'm",
   name: 'Ben Hammond',
-  subtitle: `(Denver Developer && Song Builder)`,
+  subtitle: `(Denver Dev && Song Builder)`,
   cta: 'Learn More',
 };
 
@@ -35,7 +35,7 @@ export const projectsData = [
     title: 'Tanks!',
     info: 'JavaScript Artillery Game',
     info2:
-      'Multiplayer, animated artillery game in JavaScript, JQuery, and HTML Canvas; built in one week. Incorporated programmatically generated terrain and destruction when collision detected, gravity for tank placement, scalable multiplayer mode, and responsive, accessible design.',
+      'Animated JS game using JQuery and HTML Canvas; built in one week. Incorporated programmatically generated terrain and collision detection / destruction, gravity, scalable multiplayer mode, and responsive design.',
     url: 'https://benhammondmusic.github.io/tanks',
     repo: 'https://github.com/benhammondmusic/benhammondmusic.github.io/tree/main/tanks',
     blogPost: 'https://blog.benhammond.tech/tanks',
@@ -45,7 +45,7 @@ export const projectsData = [
     img: 'family-friendly-header.png',
     title: 'Family Friendly',
     info: 'Crowd-sourced baby info for caregivers of all genders',
-    info2: `Delegates and restricts users' CRUD permissions with OAuth2; uses JavaScript Map API to plot user location and data points; integrates a deployed MongoDB Atlas NoSQL database; internally operates on a RESTful API backend in Node and Express with EJS templating`,
+    info2: `Delegates and restricts users' CRUD permissions with OAuth2; plots user location and data with a Map API; integrates a deployed MongoDB Atlas NoSQL database; internally operates a RESTful API backend in Node/Express with EJS templating`,
     url: 'https://benhammond-familyfriendly.herokuapp.com/',
     repo: 'https://github.com/benhammondmusic/familyfriendly',
     blogPost: 'https://blog.benhammond.tech/familyfriendly',
