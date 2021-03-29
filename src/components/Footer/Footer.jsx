@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Forked from{' '}
+          © {new Date().getFullYear()} - forked from{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             cobidev
           </a>

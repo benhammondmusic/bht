@@ -27,11 +27,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Ben Hammond Tech`,
+        short_name: `benhammond.tech`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#336699`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
