@@ -44,7 +44,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'family-friendly-header.png',
     title: 'Family Friendly',
-    info: 'Crowd-sourced baby info for caregivers of all genders',
+    info: 'Crowd-sourced changing table locations for caregivers of all genders',
     info2: `Delegates and restricts users' CRUD permissions with OAuth2; plots user location and data with a Map API; integrates a deployed MongoDB Atlas NoSQL database; internally operates a RESTful API backend in Node/Express with EJS templating`,
     url: 'https://benhammond-familyfriendly.herokuapp.com/',
     repo: 'https://github.com/benhammondmusic/familyfriendly',

@@ -54,18 +54,27 @@ const About = () => {
                   also excitedly learning new tools in order to create code which leverages my
                   musical expertise.
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
+
+                <span className="d-flex mt-3">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={resume}
+                  >
+                    Resume
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn text-color-white"
+                    href="https://blog.benhammond.tech"
+                  >
+                    Blog
+                  </a>
+                </span>
+
+                <span className="d-flex mt-3" />
               </div>
             </Fade>
           </Col>
