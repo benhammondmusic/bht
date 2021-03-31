@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Tilt from 'react-tilt';
 
 import { headData } from '../mock/data';
 import '../style/main.scss';
@@ -17,50 +18,139 @@ export default () => {
         <meta charSet="utf-8" />
         <title>Ben Hammond - Uses</title>
         <html lang={lang || 'en'} />
-        <meta
-          name="description"
-          content="/uses - tech, tools and toys used by Ben Hammond: Denver Dev && Song Builder"
-        />
+        <meta name="description" content="benhammond.tech/uses" />
       </Helmet>
-      <section id="hero" className="jumbotron">
+      <section id="uses" className="jumbotron">
         <Container>
+          {/* TITLE   */}
           <Fade bottom duration={1000} delay={500} distance="30px">
-            <h1 className="hero-title">
-              Ben Hammond <span className="text-color-main">/uses</span>
+            <h1 className="uses-title">
+              benhammond.tech<span className="text-color-main">/uses</span>
               <br />
-              (Denver Dev <span className="text-color-main">&&</span> Song Builder)
             </h1>
           </Fade>
 
-          <Fade right duration={1000} delay={500} distance="30px">
-            <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Tech</h3>
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cta-btn text-color-main"
-                  href="/"
-                >
-                  This cool thing
-                </a>
-                <p className="mb-4">Some text about this cool thing.</p>
-              </div>
+          <Row>
+            <Col lg={4} sm={12}>
+              <Fade right duration={1000} delay={500} distance="30px">
+                <article className="project-wrapper__text">
+                  <h3 className="project-wrapper__text-title">Tech:</h3>
+                  <div>
+                    <p className="mb-4">item</p>
+                  </div>
+                </article>
+              </Fade>
+            </Col>
+            <Col lg={8} sm={12}>
+              <Fade right duration={1000} delay={1000} distance="30px">
+                <div className="project-wrapper__image">
+                  <a
+                    href="https://benhammond.tech"
+                    target="_blank"
+                    aria-label="Project Link"
+                    rel="noopener noreferrer"
+                  >
+                    <Tilt
+                      options={{
+                        reverse: false,
+                        max: 8,
+                        perspective: 1000,
+                        scale: 1,
+                        speed: 300,
+                        transition: true,
+                        axis: null,
+                        reset: true,
+                        easing: 'cubic-bezier(.03,.98,.52,.99)',
+                      }}
+                    >
+                      <div data-tilt className="thumbnail rounded">
+                        {/* <ProjectImg alt={title} filename={img} /> */}
+                      </div>
+                    </Tilt>
+                  </a>
+                </div>
+              </Fade>
+            </Col>
+          </Row>
 
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cta-btn cta-btn--hero"
-                href="/"
-              >
-                Site
-              </a>
-            </div>
-          </Fade>
+          <Row>
+            <Col lg={4} sm={12}>
+              <Fade right duration={1000} delay={500} distance="30px">
+                <article className="project-wrapper__text">
+                  <h3 className="project-wrapper__text-title">Music</h3>
 
-          <Fade bottom duration={1000} delay={1000} distance="30px">
-            <p className="hero-cta justify-content-center">
-              <Link className="cta-btn cta-btn--hero" to="/">
+                  <div>
+                    <p className="mb-4">Instruments</p>
+                    <ul className="mb-4">
+                      <li>Godin Multiac Electric Nylon String Guitar</li>
+                      <li>Taylor T5x Hybrid Electric-Acoustic Guitar</li>
+
+                      <li>Meisel 3600 5/8 Upright Bass</li>
+                      <li>Taylor GS-Mini Koa Steel String Acoustic Guitar</li>
+                    </ul>
+                    <p className="mb-4">Pedalboard</p>
+                    <ul className="mb-4">
+                      <li>Boomerang III Phrase Sampler - Loop Pedal</li>
+                      <li>Boomerang Sidecar - Loop Pedal Controller</li>
+                      <li>Sparkle Drive - Overdrive and Boost</li>
+                      <li>Boss AW-3 - Envelope Filter</li>
+                      <li>Mr Black Mini-Tremolo</li>
+                      <li>Strymon El Capistan - Tape Echo</li>
+                      <li>Boss OC-3 - Octave</li>
+                      <li>Bose T4s - Compact Mixer</li>
+                      <li>Voodoo Lab Pedal Power 2 Plus Power Supply</li>
+                      <li>Boss AW-3</li>
+                    </ul>
+                    <p className="mb-4">Gear</p>
+                    <ul className="mb-4">
+                      <li>Bose L1 Model 2 with B2 Bass Module (Larger PA)</li>
+                      <li>Bose S1 (Battery Powered PA for mountaintop weddings)</li>
+                      <li>Westone AC-30 </li>
+                      <li>Rock N Roller Multicart Model R2 Micro</li>
+                    </ul>
+                    <p className="mb-4">Toys</p>
+                    <ul className="mb-4">
+                      <li>Moog Etherwave Theremin</li>
+                    </ul>
+                  </div>
+                </article>
+              </Fade>
+            </Col>
+            <Col lg={8} sm={12}>
+              <Fade right duration={1000} delay={1000} distance="30px">
+                <div className="project-wrapper__image">
+                  <a
+                    href="https://benhammond.tech"
+                    target="_blank"
+                    aria-label="Project Link"
+                    rel="noopener noreferrer"
+                  >
+                    <Tilt
+                      options={{
+                        reverse: false,
+                        max: 8,
+                        perspective: 1000,
+                        scale: 1,
+                        speed: 300,
+                        transition: true,
+                        axis: null,
+                        reset: true,
+                        easing: 'cubic-bezier(.03,.98,.52,.99)',
+                      }}
+                    >
+                      <div data-tilt className="thumbnail rounded">
+                        {/* <ProjectImg alt={title} filename={img} /> */}
+                      </div>
+                    </Tilt>
+                  </a>
+                </div>
+              </Fade>
+            </Col>
+          </Row>
+
+          {/* <Fade bottom duration={1000} delay={1000} distance="30px">
+            <p className="uses-cta justify-content-center">
+              <Link className="cta-btn cta-btn--uses" to="/">
                 Denver Developer
               </Link>
               <Link className="cta-btn text-color-main" to="http://www.benhammondmusic.com">
@@ -70,7 +160,7 @@ export default () => {
                 Blog
               </Link>
             </p>
-          </Fade>
+          </Fade> */}
         </Container>
       </section>
     </>

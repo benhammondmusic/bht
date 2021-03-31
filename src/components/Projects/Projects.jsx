@@ -27,14 +27,15 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
-          {projects.map((project) => {
+          {projects.map((project, idx) => {
             const { title, info, info2, url, repo, img, id, blogPost } = project;
 
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
                   <Fade
-                    left={isDesktop}
+                    left={isDesktop && idx % 2}
+                    right={isDesktop && !(idx % 2)}
                     bottom={isMobile}
                     duration={1000}
                     delay={500}
@@ -90,8 +91,8 @@ const Projects = () => {
                 </Col>
                 <Col lg={8} sm={12}>
                   <Fade
-                    right={isDesktop}
-                    bottom={isMobile}
+                    left={isDesktop && idx % 2}
+                    right={isDesktop && !(idx % 2)}
                     duration={1000}
                     delay={1000}
                     distance="30px"
