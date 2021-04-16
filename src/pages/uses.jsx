@@ -33,21 +33,47 @@ export default () => {
           <Row>
             <Col lg={4} sm={12}>
               <Fade right duration={1000} delay={500} distance="30px">
-                <article className="project-wrapper__text">
-                  <h3 className="project-wrapper__text-title">Tech:</h3>
+                <article className="uses-wrapper__text">
+                  <h3 className="uses-wrapper__text-title">Tech:</h3>
                   <div>
-                    <p className="mb-4">item</p>
+                    <p className="mb-4">Hardware</p>
+                    <ul className="mb-4">
+                      <li>2015 15&quot; Macbook Pro (all the ports, none of the touchbar) </li>
+                      <li>Bose Sound Cancelling Headphones</li>
+                      <li>HP 24 mh (External Monitor)</li>
+                      <li>Flip Down Desk</li>
+                    </ul>
+                    <p className="mb-4">Software</p>
+                    <ul className="mb-4">
+                      <li>VSCode</li>
+                      <li>Simplenote</li>
+                      <li>Todoist</li>
+                      <li>OneNote</li>
+                      <li>Mr Black Mini-Tremolo</li>
+                      <li>Strymon El Capistan - Tape Echo</li>
+                      <li>Boss OC-3 - Octave</li>
+                      <li>Bose T4s - Compact Mixer</li>
+                      <li>Voodoo Lab Pedal Power 2 Plus Power Supply</li>
+                      <li>Boss AW-3</li>
+                    </ul>
+                    <p className="mb-4">Services</p>
+                    <ul className="mb-4">
+                      <li>Hashnode</li>
+                      <li>Netlify</li>
+                      <li>Heroku</li>
+                      <li>GitHub</li>
+                    </ul>
                   </div>
                 </article>
               </Fade>
             </Col>
             <Col lg={8} sm={12}>
               <Fade right duration={1000} delay={1000} distance="30px">
-                <div className="project-wrapper__image">
+                <div className="uses-wrapper__image">
                   <a
                     href="https://benhammond.tech"
                     target="_blank"
-                    aria-label="Project Link"
+                    aria-label="uses Link"
                     rel="noopener noreferrer"
                   >
                     <Tilt
@@ -64,7 +90,7 @@ export default () => {
                       }}
                     >
                       <div data-tilt className="thumbnail rounded">
-                        {/* <ProjectImg alt={title} filename={img} /> */}
+                        {/* <usesImg alt={title} filename={img} /> */}
                       </div>
                     </Tilt>
                   </a>
@@ -76,15 +102,14 @@ export default () => {
           <Row>
             <Col lg={4} sm={12}>
               <Fade right duration={1000} delay={500} distance="30px">
-                <article className="project-wrapper__text">
-                  <h3 className="project-wrapper__text-title">Music</h3>
+                <article className="uses-wrapper__text">
+                  <h3 className="uses-wrapper__text-title">Music</h3>
 
                   <div>
                     <p className="mb-4">Instruments</p>
                     <ul className="mb-4">
                       <li>Godin Multiac Electric Nylon String Guitar</li>
                       <li>Taylor T5x Hybrid Electric-Acoustic Guitar</li>
-
                       <li>Meisel 3600 5/8 Upright Bass</li>
                       <li>Taylor GS-Mini Koa Steel String Acoustic Guitar</li>
                     </ul>
@@ -118,11 +143,11 @@ export default () => {
             </Col>
             <Col lg={8} sm={12}>
               <Fade right duration={1000} delay={1000} distance="30px">
-                <div className="project-wrapper__image">
+                <div className="uses-wrapper__image">
                   <a
                     href="https://benhammond.tech"
                     target="_blank"
-                    aria-label="Project Link"
+                    aria-label="uses Link"
                     rel="noopener noreferrer"
                   >
                     <Tilt
@@ -139,7 +164,7 @@ export default () => {
                       }}
                     >
                       <div data-tilt className="thumbnail rounded">
-                        {/* <ProjectImg alt={title} filename={img} /> */}
+                        {/* <usesImg alt={title} filename={img} /> */}
                       </div>
                     </Tilt>
                   </a>

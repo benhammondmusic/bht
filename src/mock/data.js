@@ -61,12 +61,12 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: 'Would You Like To Build Something Together?',
-  btn: 'Email Me',
-  email: 'hello@benhammond.tech',
-};
+// // CONTACT DATA
+// export const contactData = {
+//   cta: 'Would You Like To Build Something Together?',
+//   btn: 'Email Me',
+//   email: 'hello@benhammond.tech',
+// };
 
 // FOOTER DATA
 export const footerData = {

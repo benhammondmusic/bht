@@ -39,7 +39,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  I&apos;m an enthusiastic software developer with 15+ years running a tech-forward
+                  I&apos;m an enthusiastic software engineer with 15+ years running a tech-forward
                   music business. I am currently seeking seeking full-time employment in the Denver
                   area or remotely as a developer and software engineer.
                 </p>
