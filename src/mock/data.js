@@ -8,23 +8,23 @@ export const headData = {
 };
 
 // HERO DATA
-export const heroData = {
-  title: "Hello, I'm",
-  name: 'Ben Hammond',
-  subtitle: `(Denver Dev && Song Builder)`,
-  cta: 'Learn More',
-};
+// export const heroData = {
+//   title: "Hello, I'm",
+//   name: 'Ben Hammond',
+//   subtitle: `Software Developer && Song Builder`,
+//   cta: 'Learn More',
+// };
 
 // ABOUT DATA
 // this data is hard-coded in <About> jsx
-export const aboutData = {
-  img: 'ben-headphones-square.jpg',
-  paragraphOne: `Denver Developer | JavaScript | React | Node | Python`,
-  paragraphTwo: ``,
-  paragraphThree: ``,
-  resume:
-    'https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing',
-};
+// export const aboutData = {
+//   img: 'ben-headphones-square.jpg',
+//   paragraphOne: `Denver Developer | JavaScript | React | Node | Python`,
+//   paragraphTwo: ``,
+//   paragraphThree: ``,
+//   resume:
+//     'https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing',
+// };
 
 // PROJECTS DATA
 // Important Note: All the images must live inside the src/images/ folder in order for Gatsby to show the images correctly.

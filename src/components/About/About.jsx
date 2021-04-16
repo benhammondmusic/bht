@@ -38,32 +38,26 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
+                <p className="about-wrapper__info-text">JavaScript | React | Node | Python</p>
                 <p className="about-wrapper__info-text">
                   I&apos;m an enthusiastic software engineer with 15+ years running a tech-forward
-                  music business. I am currently seeking seeking full-time employment in the Denver
-                  area or remotely as a developer and software engineer.
+                  music business. I am currently seeking a full-time role, in the Denver area or
+                  remotely.
                 </p>
+
+                <p className="about-wrapper__info-text">
+                  Most recently I&apos;ve been working in fullstack Python (Django) and Javascript
+                  (React, Node), but I am continuously experimenting and learning new tools as they
+                  pertain to the tasks at hand.
+                </p>
+
                 <p className="about-wrapper__info-text">
                   Driven to exceed expectations, I enjoy bringing an entertainer&apos;s eye to
                   engagement and an improviser&apos;s ear to the development of collective ideas.
                   I&apos;m committed to improving quality of life for myself and others through
                   lifelong learning, meaningful collaboration, and better code.
                 </p>
-                <p className="about-wrapper__info-text">
-                  Most recently I&apos;ve been working in fullstack Javascript (React, Node), while
-                  also excitedly learning new tools in order to create code which leverages my
-                  musical expertise.
-                </p>
-
                 <span className="d-flex mt-3">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="cta-btn cta-btn--resume"
-                    href={resume}
-                  >
-                    Resume
-                  </a>
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -71,6 +65,22 @@ const About = () => {
                     href="https://blog.benhammond.tech"
                   >
                     Blog
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={resume}
+                  >
+                    Resume (Google Doc)
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href={resume}
+                  >
+                    Resume (PDF)
                   </a>
                 </span>
 
