@@ -1,14 +1,15 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'; //  useContext,
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
-import PortfolioContext from '../../context/context';
+// import PortfolioContext from '../../context/context';
+import resumePDF from '../../images/Ben-Hammond-Resume-2021.pdf';
 
 const About = () => {
-  const { about } = useContext(PortfolioContext);
+  // const { about } = useContext(PortfolioContext);
   // no longer need to destructure { paragraphOne, paragraphTwo, paragraphThree} in next line as the text is now hard coded in this file instead
-  const { img, resume } = about;
+  // const { img, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -31,7 +32,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={img} />
+                <AboutImg alt="profile picture" filename="ben-headphones-square.jpg" />
               </div>
             </Fade>
           </Col>
@@ -41,14 +42,15 @@ const About = () => {
                 <p className="about-wrapper__info-text">JavaScript | React | Node | Python</p>
                 <p className="about-wrapper__info-text">
                   I&apos;m an enthusiastic software engineer with 15+ years running a tech-forward
-                  music business. I am currently seeking a full-time role, in the Denver area or
+                  music business. I am currently seeking a full-time role in the Denver area or
                   remotely.
                 </p>
 
                 <p className="about-wrapper__info-text">
-                  Most recently I&apos;ve been working in fullstack Python (Django) and Javascript
-                  (React, Node), but I am continuously experimenting and learning new tools as they
-                  pertain to the tasks at hand.
+                  Most recently I&apos;ve been working in fullstack web development, but I am
+                  continuously experimenting and learning new tools as they pertain to the tasks at
+                  hand. I&apos;m particularly excited to work on projects that might leverage my
+                  musical expertise.
                 </p>
 
                 <p className="about-wrapper__info-text">
@@ -70,17 +72,17 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href={resume}
+                    href={resumePDF}
                   >
-                    Resume (Google Doc)
+                    Resume (PDF)
                   </a>
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href={resume}
+                    href="https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/"
                   >
-                    Resume (PDF)
+                    Resume (Google Docs)
                   </a>
                 </span>
 
