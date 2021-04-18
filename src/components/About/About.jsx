@@ -48,9 +48,8 @@ const About = () => {
 
                 <p className="about-wrapper__info-text">
                   Most recently I&apos;ve been working in fullstack web development, but I am
-                  continuously experimenting and learning new tools as they pertain to the tasks at
-                  hand. I&apos;m particularly excited to work on projects that might leverage my
-                  musical expertise.
+                  continuously experimenting and learning new tools, and I&apos;m particularly
+                  excited to work on projects that might leverage my musical expertise.
                 </p>
 
                 <p className="about-wrapper__info-text">
@@ -71,7 +70,7 @@ const About = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cta-btn cta-btn--resume"
+                    className="cta-btn text-color-white"
                     href={resumePDF}
                   >
                     Resume (PDF)
@@ -79,10 +78,10 @@ const About = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cta-btn cta-btn--resume"
+                    className="cta-btn text-color-white"
                     href="https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/"
                   >
-                    Resume (Google Docs)
+                    Resume (GDocs)
                   </a>
                 </span>
 
