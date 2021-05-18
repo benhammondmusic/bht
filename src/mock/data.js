@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'gig-board.png',
+    img: 'gig-board.jpg',
     title: 'GigBoard',
     info: 'Fullstack app for connecting short-term gig-workers, built in JavaScript (MERN stack)',
     info2:
