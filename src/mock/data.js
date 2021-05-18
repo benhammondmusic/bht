@@ -31,6 +31,26 @@ export const headData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'little-cabin.png',
+    title: 'Little Cabin',
+    info: "Securely share your family's get-away and memories. Fullstack Python App with Django",
+    info2:
+      'Created this web app to provide my extended family integrated property management tools. Syncs consensus-based scheduling with Google Calendar API using a Google Cloud Platform service account; Heroku deployment required customized configuration to generate required credentials file. “Demo” logs in a pre-authenticated account and programmatically generates additional test accounts with tiered authentication and incoming action requests to demonstrate user-to-user interactions. Prioritizes responsive design with media queries and CSS variables; persistent dark mode toggle selection',
+    url: 'https://littlecabin.herokuapp.com',
+    repo: 'https://github.com/benhammondmusic/littlecabin',
+  },
+  {
+    id: nanoid(),
+    img: 'gig-board.png',
+    title: 'GigBoard',
+    info: 'Fullstack app for connecting short-term gig-workers, built in JavaScript (MERN stack)',
+    info2:
+      "Uses Model-View-Controller (MVC) design pattern, user stories, and an internal RESTful API. CRUD functionality restricted per user status; offers custom encrypted registration or Google OAuth login. Project-managed team of 6, utilizing GitHub's agile board to delegate and to minimize merge conflicts. Wrote 3 technical posts, assisting team members with deployments and environmental variables; provided hands-on assistance on multiple occasions and helped instructor solve another team's bug. Personally contributed across the stack: scaffolding functional React components; dynamic searching, useState() and useEffect() hooks for state management and side-effects; assisted with JWT process.",
+    url: 'https://gig-board.herokuapp.com',
+    repo: 'https://github.com/benhammondmusic/gigboard',
+  },
+  {
+    id: nanoid(),
     img: 'tanks.png',
     title: 'Tanks!',
     info: 'JavaScript Artillery Game',
