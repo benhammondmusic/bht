@@ -41,15 +41,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">JavaScript | React | Node | Python</p>
                 <p className="about-wrapper__info-text">
-                  I&apos;m an enthusiastic software engineer with 15+ years running a tech-forward
-                  music business. I am currently seeking a full-time role in the Denver area or
-                  remotely.
+                  I&apos;m an enthusiastic developer with 15+ years running a tech-forward music
+                  business; I&apos;m currently seeking a full-time software engineering role in the
+                  Denver area or fully remote.
                 </p>
 
                 <p className="about-wrapper__info-text">
-                  Most recently I&apos;ve been working in fullstack web development, but I am
-                  continuously experimenting and learning new tools, and I&apos;m particularly
-                  excited to work on projects that might leverage my musical expertise.
+                  Recently I&apos;ve been busy building full-stack web applications, but I am
+                  continuously experimenting and learning new tools, and I am particularly excited
+                  to contribute to technical work that might leverage my musical expertise.
                 </p>
 
                 <p className="about-wrapper__info-text">
