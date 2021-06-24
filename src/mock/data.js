@@ -38,6 +38,7 @@ export const projectsData = [
       'Created this web app to provide my extended family integrated property management tools. Syncs consensus-based scheduling with Google Calendar API using a Google Cloud Platform service account; Heroku deployment required customized configuration to generate required credentials file. “Demo” logs in a pre-authenticated account and programmatically generates additional test accounts with tiered authentication and incoming action requests to demonstrate user-to-user interactions. Prioritizes responsive design with media queries and CSS variables; persistent dark mode toggle selection',
     url: 'https://littlecabin.herokuapp.com',
     repo: 'https://github.com/benhammondmusic/littlecabin',
+    blogPost: 'https://blog.benhammond.tech/connecting-google-cal-api-and-django',
   },
   {
     id: nanoid(),
