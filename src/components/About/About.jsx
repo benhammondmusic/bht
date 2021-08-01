@@ -41,22 +41,16 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">JavaScript | React | Node | Python</p>
                 <p className="about-wrapper__info-text">
-                  I&apos;m an enthusiastic developer with 15+ years running a tech-forward music
-                  business; I&apos;m currently seeking a full-time software engineering role in the
-                  Denver area or fully remote.
-                </p>
-
-                <p className="about-wrapper__info-text">
-                  Recently I&apos;ve been busy building full-stack web applications, but I am
-                  continuously experimenting and learning new tools, and I am particularly excited
-                  to contribute to technical work that might leverage my musical expertise.
+                  I&apos;m an enthusiastic developer / software engineer with 15+ years running a
+                  tech-forward music business. I am a graduate of McGill University and General
+                  Assembly, and I currently live in Denver, Colorado with my wife and two daughters.
                 </p>
 
                 <p className="about-wrapper__info-text">
                   Driven to exceed expectations, I enjoy bringing an entertainer&apos;s eye to
-                  engagement and an improviser&apos;s ear to the development of collective ideas.
-                  I&apos;m committed to improving quality of life for myself and others through
-                  lifelong learning, meaningful collaboration, and better code.
+                  engagement and an improviser&apos;s ear to the development of collective ideas. I
+                  believe deeply in the power of both music and technology in uplifting my
+                  communities.
                 </p>
                 <span className="d-flex mt-3">
                   <a

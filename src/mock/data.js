@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Ben Hammond | Denver Developer',
+  title: 'Ben Hammond | Software Engineer | Denver',
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Coding Projects Portfolio',
+  description: 'Coding Portfolio',
 };
 
 // HERO DATA
