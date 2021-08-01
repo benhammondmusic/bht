@@ -41,16 +41,27 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">JavaScript | React | Node | Python</p>
                 <p className="about-wrapper__info-text">
-                  I&apos;m an enthusiastic developer / software engineer with 15+ years running a
-                  tech-forward music business. I am a graduate of McGill University and General
-                  Assembly, and I currently live in Denver, Colorado with my wife and two daughters.
+                  I&apos;m an enthusiastic developer with 15+ years running a tech-forward music
+                  business. I am a graduate of McGill University and General Assembly, living in
+                  Denver, Colorado with my wife and two daughters.
+                </p>
+                <p className="about-wrapper__info-text">
+                  I am currently employed by the Morehouse School of Medicine (Satcher Health
+                  Leadership Institute) and a proud software engineer on their Health Equity Tracker
+                  team.
+                  {/* <blockquote>
+                    The HET enables MSM to provide a detailed view of health outcomes by race,
+                    ethnicity, sex, and other critical factors with a health equity–first approach.
+                    The goal is that the tool will help policymakers understand what resources and
+                    support communities need to be able to improve their outcomes on a range of
+                    health issues.
+                  </blockquote> */}
                 </p>
 
                 <p className="about-wrapper__info-text">
-                  Driven to exceed expectations, I enjoy bringing an entertainer&apos;s eye to
-                  engagement and an improviser&apos;s ear to the development of collective ideas. I
-                  believe deeply in the power of both music and technology in uplifting my
-                  communities.
+                  I believe deeply in the power of music and technology to uplift our communities,
+                  so please reach out if I can help or answer any questions you may have. Let&apos;s
+                  build something together!
                 </p>
                 <span className="d-flex mt-3">
                   <a
