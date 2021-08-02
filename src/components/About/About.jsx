@@ -47,7 +47,15 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   I am currently employed by the Morehouse School of Medicine (Satcher Health
-                  Leadership Institute) and a proud software engineer on their Health Equity Tracker
+                  Leadership Institute) and a proud software engineer on their{' '}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn text-color-white"
+                    href="https://blog.benhammond.tech"
+                  >
+                    Health Equity Tracker
+                  </a>
                   team.
                   {/* <blockquote>
                     The HET enables MSM to provide a detailed view of health outcomes by race,
@@ -60,8 +68,10 @@ const About = () => {
 
                 <p className="about-wrapper__info-text">
                   I believe deeply in the power of music and technology to uplift our communities,
-                  so please reach out if I can help or answer any questions you may have. Let&apos;s
-                  build something together!
+                  so please reach out if I can help or answer any questions you may have.{' '}
+                  <a href="#lets-build-something" className="cta-btn text-color-white">
+                    Let&apos;s build something together!
+                  </a>
                 </p>
                 <span className="d-flex mt-3">
                   <a

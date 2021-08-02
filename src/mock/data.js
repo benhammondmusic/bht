@@ -7,25 +7,6 @@ export const headData = {
   description: 'Coding Portfolio',
 };
 
-// HERO DATA
-// export const heroData = {
-//   title: "Hello, I'm",
-//   name: 'Ben Hammond',
-//   subtitle: `Software Developer && Song Builder`,
-//   cta: 'Learn More',
-// };
-
-// ABOUT DATA
-// this data is hard-coded in <About> jsx
-// export const aboutData = {
-//   img: 'ben-headphones-square.jpg',
-//   paragraphOne: `Denver Developer | JavaScript | React | Node | Python`,
-//   paragraphTwo: ``,
-//   paragraphThree: ``,
-//   resume:
-//     'https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing',
-// };
-
 // PROJECTS DATA
 // Important Note: All the images must live inside the src/images/ folder in order for Gatsby to show the images correctly.
 export const projectsData = [
@@ -81,13 +62,6 @@ export const projectsData = [
     blogPost: 'https://blog.benhammond.tech/giguploader',
   },
 ];
-
-// // CONTACT DATA
-// export const contactData = {
-//   cta: 'Would You Like To Build Something Together?',
-//   btn: 'Email Me',
-//   email: 'hello@benhammond.tech',
-// };
 
 // FOOTER DATA
 export const footerData = {
