@@ -46,17 +46,16 @@ const About = () => {
                   Denver, Colorado with my wife and two daughters.
                 </p>
                 <p className="about-wrapper__info-text">
-                  I am currently employed by the Morehouse School of Medicine (Satcher Health
-                  Leadership Institute) and a proud software engineer on their{' '}
+                  I am currently employed by the Morehouse School of Medicine within the Satcher
+                  Health Leadership Institute, proudly working as a software engineer on the
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn text-color-white"
                     href="https://blog.benhammond.tech"
                   >
-                    Health Equity Tracker
+                    Health Equity Tracker.
                   </a>
-                  team.
                   {/* <blockquote>
                     The HET enables MSM to provide a detailed view of health outcomes by race,
                     ethnicity, sex, and other critical factors with a health equity–first approach.
