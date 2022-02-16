@@ -2,9 +2,10 @@
 
 Repo for [BenHammond.tech](https://benhammond.tech), a portfolio site for me, Ben Hammond, a Denver Developer and Song Builder. The Gatsby template I forked to create my site is open sourced; you can find the original README below. 
 
-# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+<hr />
 
-## A clean, beautiful and responsive portfolio template for Developers
+## Gatsby Simplefolio ⚡️ A clean, beautiful and responsive portfolio template for Developers
+[![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
 
 <h2 align="center">
   <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
