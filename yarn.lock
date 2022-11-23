@@ -4285,6 +4285,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"benhammondmusic-portfolio@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "benhammondmusic-portfolio@workspace:."
+  dependencies:
+    babel-eslint: ^10.1.0
+    bootstrap: ^4.5.0
+    eslint: 7.2.0
+    eslint-config-airbnb: ^18.2.0
+    eslint-config-prettier: ^6.11.0
+    eslint-plugin-import: ^2.21.2
+    eslint-plugin-jsx-a11y: ^6.3.1
+    eslint-plugin-prettier: ^3.1.4
+    eslint-plugin-react: ^7.20.0
+    eslint-plugin-react-hooks: ^4.0.4
+    gatsby: ^2.32.13
+    gatsby-image: ^2.4.7
+    gatsby-plugin-manifest: ^2.4.12
+    gatsby-plugin-offline: ^3.2.11
+    gatsby-plugin-react-helmet: ^3.10.0
+    gatsby-plugin-sass: ^3.0.0
+    gatsby-plugin-sharp: ^2.6.12
+    gatsby-source-filesystem: ^2.3.12
+    gatsby-transformer-sharp: ^2.5.5
+    husky: ^4.2.5
+    lint-staged: ^10.2.11
+    nanoid: ^3.1.10
+    node-sass: ^4.14.1
+    prettier: ^2.0.5
+    prop-types: ^15.7.2
+    react: ^16.13.1
+    react-bootstrap: ^1.0.1
+    react-dom: ^16.13.1
+    react-github-btn: ^1.2.0
+    react-helmet: ^6.1.0
+    react-reveal: ^1.2.2
+    react-scroll: ^1.7.16
+    react-tilt: ^0.1.4
+    sass: ^1.56.1
+  languageName: unknown
+  linkType: soft
+
 "better-opn@npm:^2.0.0":
   version: 2.1.1
   resolution: "better-opn@npm:2.1.1"
@@ -9332,47 +9373,6 @@ __metadata:
   checksum: d056b61cfef6a37e6c2f29aea81e079bd1f591b5cfaffeb9e239db011e68ccb97e86586671d45f4d075c7836b022be61d67e10a22dc815bee519dc964c8a317c
   languageName: node
   linkType: hard
-
-"gatsby-starter-hello-world@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gatsby-starter-hello-world@workspace:."
-  dependencies:
-    babel-eslint: ^10.1.0
-    bootstrap: ^4.5.0
-    eslint: 7.2.0
-    eslint-config-airbnb: ^18.2.0
-    eslint-config-prettier: ^6.11.0
-    eslint-plugin-import: ^2.21.2
-    eslint-plugin-jsx-a11y: ^6.3.1
-    eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-react: ^7.20.0
-    eslint-plugin-react-hooks: ^4.0.4
-    gatsby: ^2.32.13
-    gatsby-image: ^2.4.7
-    gatsby-plugin-manifest: ^2.4.12
-    gatsby-plugin-offline: ^3.2.11
-    gatsby-plugin-react-helmet: ^3.10.0
-    gatsby-plugin-sass: ^3.0.0
-    gatsby-plugin-sharp: ^2.6.12
-    gatsby-source-filesystem: ^2.3.12
-    gatsby-transformer-sharp: ^2.5.5
-    husky: ^4.2.5
-    lint-staged: ^10.2.11
-    nanoid: ^3.1.10
-    node-sass: ^4.14.1
-    prettier: ^2.0.5
-    prop-types: ^15.7.2
-    react: ^16.13.1
-    react-bootstrap: ^1.0.1
-    react-dom: ^16.13.1
-    react-github-btn: ^1.2.0
-    react-helmet: ^6.1.0
-    react-reveal: ^1.2.2
-    react-scroll: ^1.7.16
-    react-tilt: ^0.1.4
-    sass: ^1.56.1
-  languageName: unknown
-  linkType: soft
 
 "gatsby-telemetry@npm:^1.10.2":
   version: 1.10.2

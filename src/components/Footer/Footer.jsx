@@ -39,8 +39,12 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - forked from{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            cobidev
+          <a
+            href="https://github.com/cobiwave/gatsby-simplefolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            simplefolio
           </a>
         </p>
 
