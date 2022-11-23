@@ -29,6 +29,7 @@ const Projects = () => {
           <Title title="Projects" />
           {projects.map((project, idx) => {
             const { title, info, info2, url, repo, img, id, blogPost } = project;
+            const link = url ?? repo ?? blogPost;
 
             return (
               <Row key={id}>
@@ -48,7 +49,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={url}
+                          href={link}
                         >
                           {info || 'loading...'}
                         </a>

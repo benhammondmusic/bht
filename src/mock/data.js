@@ -16,8 +16,8 @@ export const projectsData = [
     title: 'Little Cabin',
     info: "Securely share your family's get-away and memories. Fullstack Python App with Django",
     info2:
-      'Created this web app to provide my extended family integrated property management tools. Syncs consensus-based scheduling with Google Calendar API using a Google Cloud Platform service account; Heroku deployment required customized configuration to generate required credentials file. “Demo” logs in a pre-authenticated account and programmatically generates additional test accounts with tiered authentication and incoming action requests to demonstrate user-to-user interactions. Prioritizes responsive design with media queries and CSS variables; persistent dark mode toggle selection',
-    url: 'https://littlecabin.herokuapp.com',
+      'Created this web app to provide my extended family integrated property management tools. Syncs consensus-based scheduling with Google Calendar API using a Google Cloud Platform service account; Deployment (formerly on Heroku)  required customized configuration to generate required credentials file. “Demo” logs in a pre-authenticated account and programmatically generates additional test accounts with tiered authentication and incoming action requests to demonstrate user-to-user interactions. Prioritizes responsive design with media queries and CSS variables; persistent dark mode toggle selection',
+    // url: 'https://littlecabin.herokuapp.com',
     repo: 'https://github.com/benhammondmusic/littlecabin',
     blogPost: 'https://blog.benhammond.tech/connecting-google-cal-api-and-django',
   },
@@ -28,7 +28,7 @@ export const projectsData = [
     info: 'Fullstack app for connecting short-term gig-workers, built in JavaScript (MERN stack)',
     info2:
       "Uses Model-View-Controller (MVC) design pattern, user stories, and an internal RESTful API. CRUD functionality restricted per user status; offers custom encrypted registration or Google OAuth login. Project-managed team of 6, utilizing GitHub's agile board to delegate and to minimize merge conflicts. Wrote 3 technical posts, assisting team members with deployments and environmental variables; provided hands-on assistance on multiple occasions and helped instructor solve another team's bug. Personally contributed across the stack: scaffolding functional React components; dynamic searching, useState() and useEffect() hooks for state management and side-effects; assisted with JWT process.",
-    url: 'https://gig-board.herokuapp.com',
+    // url: 'https://gig-board.herokuapp.com',
     repo: 'https://github.com/benhammondmusic/gigboard',
   },
   {
@@ -48,7 +48,7 @@ export const projectsData = [
     title: 'Family Friendly',
     info: 'Crowd-sourced changing table locations for caregivers of all genders',
     info2: `Delegates and restricts users' CRUD permissions with OAuth2; plots user location and data with a Map API; integrates a deployed MongoDB Atlas NoSQL database; internally operates a RESTful API backend in Node/Express with EJS templating`,
-    url: 'https://benhammond-familyfriendly.herokuapp.com/',
+    // url: 'https://benhammond-familyfriendly.herokuapp.com/',
     repo: 'https://github.com/benhammondmusic/familyfriendly',
     blogPost: 'https://blog.benhammond.tech/familyfriendly',
   },
@@ -66,11 +66,6 @@ export const projectsData = [
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/benhammondmusic',
-    },
     {
       id: nanoid(),
       name: 'linkedin',

@@ -49,18 +49,11 @@ export default () => {
                       <li>Simplenote</li>
                       <li>Todoist</li>
                       <li>OneNote</li>
-                      <li>Mr Black Mini-Tremolo</li>
-                      <li>Strymon El Capistan - Tape Echo</li>
-                      <li>Boss OC-3 - Octave</li>
-                      <li>Bose T4s - Compact Mixer</li>
-                      <li>Voodoo Lab Pedal Power 2 Plus Power Supply</li>
-                      <li>Boss AW-3</li>
                     </ul>
                     <p className="mb-4">Services</p>
                     <ul className="mb-4">
                       <li>Hashnode</li>
                       <li>Netlify</li>
-                      <li>Heroku</li>
                       <li>GitHub</li>
                     </ul>
                   </div>
