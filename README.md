@@ -1,3 +1,5 @@
+> Note: too many dependency issues to keep this alive.... I've moved on from this template. You can see the new one at https://github.com/benhammondmusic/benhammond.tech
+
 # BenHammond.tech - Software Engineer && Song Builder
 
 Repo for [BenHammond.tech](https://benhammond.tech), a portfolio site for me, Ben Hammond, a Denver Developer and Song Builder. The Gatsby template I forked to create my site is open sourced; you can find the original README below.
